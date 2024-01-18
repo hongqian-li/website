@@ -2,5 +2,106 @@
     --primary-color: #1E1D1B;
     --background: #EAEAEA;
     --details: #C19977;
-    --text-color: #FFFFFF;
+    --heading-text: #FFFFFF;
+    --secondary-text: #CCCABC;
 }
+.headers{
+   
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+}
+hr{
+    background-color: var(--details);
+    height: 2px;
+    margin-top: 0;
+}
+#story{
+    display: block;
+    margin: auto;
+
+}
+.container-fluid{
+    background-color: var(--primary-color);
+    width: 95%;
+}
+body { 
+    background-color: var(--background);
+    color: white;
+    font-family: "Libre Baskerville";
+    font-style: italic;
+}
+
+.navbar{
+    width: auto;
+    margin: auto;
+    margin-bottom: 0;
+    font-size: 30px;
+    padding-bottom: 0;
+}
+
+#logodiv{
+    display: block;
+    margin:auto;
+}
+.center {
+        display: block;
+        margin: auto;
+}
+
+.nav-item{
+    padding-bottom: 0;
+    margin-bottom: 0;
+    margin-right: 30px;
+}
+
+#title{
+    text-align: center;
+    font-family: "Jacques Francois";
+    font-style: normal;
+    padding: 55px;
+    letter-spacing: 4px;
+}
+
+.bg-body-tertiary{
+    background-color: var(--primary-color) !important;
+}
+
+.nav-link {
+    color:var(--heading-text);
+    padding:0%;
+}
+
+.nav-link:hover {
+    color: var(--details);
+    text-decoration: underline;
+
+}
+
+.nav-link:focus {
+    color:var(--secondary-text);
+}
+
+
+h1 {
+    font-size: 100px;
+}
+    
+.heading{
+    font-size: 60px;
+}
+
+#footer {
+    text-align: center;
+}
+
+.footer-heading {
+    font-size: 30px;
+}
+
+#footer-center {
+    font-size: 50px;
+    
+}
+
