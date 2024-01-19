@@ -6,8 +6,6 @@
     --secondary-text: #CCCABC;
 }
 
-
-
 hr{
     background-color: var(--details);
     height: 2px;
@@ -19,7 +17,7 @@ hr{
 }
 .container-fluid{
     background-color: var(--primary-color);
-    width: 95%;
+    width: 97%;
 }
 body { 
     background-color: var(--background);
@@ -67,18 +65,17 @@ body {
 .nav-link {
     color:var(--heading-text);
     padding:0%;
+    text-align: center;
 }
 
 .nav-link:hover {
     color: var(--details);
     text-decoration: underline;
-
 }
 
 .nav-link:focus {
     color:var(--secondary-text);
 }
-
 
 h1 {
     font-size: 100px;
@@ -120,5 +117,26 @@ h1 {
     margin-left: auto;
     margin-right: auto;
 }
+
+.navbar-toggler-icon {
+    background-image: url("pictures/menu.png");
+}
+
+.navbar-toggler {
+    margin: auto;
+}
+
+#footer-underline {
+    transform: rotate(180deg);
+    width: 100%;
+    margin-top: 30px;
+}
+
+#header-logo {
+    width: 90%;
+    opacity: 0.90;
+
+}
+
 
 
