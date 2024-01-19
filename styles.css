@@ -5,25 +5,43 @@
     --heading-text: #FFFFFF;
     --secondary-text: #CCCABC;
 }
-
+body { 
+    background-color: var(--background);
+    color: white;
+    font-family: "Libre Baskerville";
+    font-style: italic;
+}
 hr{
     background-color: var(--details);
     height: 2px;
     margin-top: 0;
 }
 #story{
-    line-height: 100px;
+    color: var(--details);
+    background-color: none;
+    margin: 1%;
+}
+#rowcontent{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
 
+#imagecontent{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#goldline{
+    width: 90%;
+}
+.description{
+    font-size: 18px;
+    text-align: justify;
+    width: 90%;
 }
 .container-fluid{
     background-color: var(--primary-color);
     width: 97%;
-}
-body { 
-    background-color: var(--background);
-    color: white;
-    font-family: "Libre Baskerville";
-    font-style: italic;
 }
 
 .navbar{
