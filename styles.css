@@ -5,21 +5,16 @@
     --heading-text: #FFFFFF;
     --secondary-text: #CCCABC;
 }
-.headers{
-   
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height: 100vh;
-}
+
+
+
 hr{
     background-color: var(--details);
     height: 2px;
     margin-top: 0;
 }
 #story{
-    display: block;
-    margin: auto;
+    line-height: 100px;
 
 }
 .container-fluid{
@@ -36,7 +31,6 @@ body {
 .navbar{
     width: auto;
     margin: auto;
-    margin-bottom: 0;
     font-size: 30px;
     padding-bottom: 0;
 }
@@ -60,8 +54,10 @@ body {
     text-align: center;
     font-family: "Jacques Francois";
     font-style: normal;
-    padding: 55px;
-    letter-spacing: 4px;
+    margin-top: 20px;
+    padding-left: 55px;
+    padding-bottom: 0;
+    letter-spacing: 6px;
 }
 
 .bg-body-tertiary{
@@ -86,6 +82,8 @@ body {
 
 h1 {
     font-size: 100px;
+    padding-bottom: 0;
+    margin-bottom: 0;
 }
     
 .heading{
@@ -102,6 +100,25 @@ h1 {
 
 #footer-center {
     font-size: 50px;
+    line-height: 100px;
+    text-align: center;
     
 }
+
+.socials-logo {
+    width: 35px;
+    height: auto;
+    margin: 5px;
+}
+
+.socials {
+    margin: auto;
+}
+
+#underline {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
