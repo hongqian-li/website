@@ -4,92 +4,137 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Amici Ristorante</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="scale_styles.css">
 </head>
 <body>
- main
-    <div class="container-fluid">
-        <div class="row" id="header"> <!--Header-->
-            <div class="col-sm-4" id="logodiv"><!---Logo-->
-                 <img src="Pictures/flag-of-italy.png" alt="Logo" width="90%" class="center" style="opacity: 0.90;">
-                </div> 
-            <div class="col-sm-8">
-                <div class="row" id="title"> <!---Name-->
-                    <h1>Amici Ristorante</h1>
-                </div>
-                <div class="row" id="navigation"> <!---Navbar-->
-                    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-                          <div class="collapse navbar-collapse" id="navbarNav">
-                            <ul class="navbar-nav">
-                              <li class="nav-item">
+<div class="container-fluid">
+    <div class="row" id="header"> <!--Header-->
+        <div class="col-sm-4" id="logodiv"><!---Logo-->
+            <a href="#"><img src="pictures/flag-of-italy.png" alt="Logo"class="center" id="header-logo"></a>
+        </div>
+        <div class="col-sm-8">
+            <div class="row" id="title"> <!---Name-->
+                <h1>Amici Ristorante</h1>
+            </div>
+            <div class="row" id="title-underline">
+                <img src="pictures/underline-title.png" id="underline">
+            </div>
+
+            <div class="row" id="navigation"> <!---Navbar-->
+                <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                    <div class="container-fluid">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                            <div class="navbar-nav">
                                 <a class="nav-link" href="index.html">Home</a>
-                              </li>
-                              <li class="nav-item">
                                 <a class="nav-link" href="pages/menu.html">Menu</a>
-                              </li>
-                              <li class="nav-item">
                                 <a class="nav-link" href="pages/gallery.html">Gallery</a>
-                              </li>
-                              <li class="nav-item">
                                 <a class="nav-link" href="pages/reservations.html">Reservations</a>
-                              </li>
-                              <li class="nav-item">
                                 <a class="nav-link" href="pages/contact.html">Contact</a>
-                              </li>
-                              <li class="nav-item">
                                 <a class="nav-link" href="pages/career.html">Career</a>
-                              </li>
-                            </ul>
-                          </div>
+                            </div>
                         </div>
-                      </nav>
                     </div>
+                </nav>
             </div>
-            <hr> <!--Line Break-->
-    <!--Content-->
-        <div class="row">
-            <div class="col-sm-6">
-                <img src="Pictures/WhatsApp Image 2024-01-16 at 13.15.23_065abfb4.jpg" alt="" class="center" width="80%">
-            </div>
-            <div class="col-sm-6">
-                <div class="row" >
-                <div class="col-sm-5"><h2 class="heading">Our story</h2> </div>
-                <div class="col-sm-5" id="headers"> <div id="goldline"><hr id="story"> </div></div>
-                </div>
-                <div class="row">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eleifend purus nec faucibus rhoncus. 
-                  Cras turpis diam, suscipit nec arcu vel, vehicula lobortis quam. Nulla vel sem sem. Donec diam ipsum, 
-                  lacinia id ante in, porta hendrerit lectus. Mauris a lorem sagittis, porta tellus ac, cursus justo. 
-                  Aliquam iaculis eu lorem sit amet commodo. Aliquam porta libero sed metus interdum condimentum. 
-                  Ut luctus lacinia tortor, non fringilla elit fringilla eget. Nulla suscipit, orci ac hendrerit dictum, 
-                  erat leo porttitor tellus, quis vestibulum sapien augue ut mi. Cras erat dui, porttitor nec dui quis, aliquet fermentum erat.</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="row">
-
-        </div>
-        <hr>
-        <div class="row" id="footer">
-           
-          <div class="col-sm-4">
-            <h4 class="footer-heading">Copyright</h4>
-            <p class="footer-text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at lorem ac orci pulvinar euismod in id eros. Vivamus ut interdum dolor. </p>
-          </div>
-          <div class="col-sm-4">
-            <h4 class="footer-heading" id="footer-center">Bon appetit</h4>
-          </div>
-          <div class="col-sm-4">
-            <h4 class="footer-heading">Socials</h4>
-          </div>
-          
         </div>
     </div>
+    <hr> <!--Line Break-->
+<!--Content-->
+<div class="row" id="rowcontent">
+    <div class="col-sm-5" id="imagecontent">
+        <img src="Pictures/indexbuilding.jpeg" class="center" width="80%">
+    </div>
+    <div class="col-sm-7" id="textcontent">
+        <div class="row" >
+        <h2 class="heading">Our location</h2>
+        <div id="goldline"><hr id="story"> </div>
+        </div>
+        <div class="row">
+        <p class="description">Nestled in the heart of the city since 1950, Amici Ristorante beckons with its warm and inviting ambiance. 
+            Located on a quaint street, its exterior is adorned with charming vines that add a touch of rustic allure. The restaurant's central 
+            location makes it easily accessible, drawing in locals and visitors alike. As patrons step inside, they are greeted by the comforting 
+            aroma of simmering sauces and the lively chatter of friends and families. With its cozy interior and vintage decor, Amici provides 
+            a haven where the rich history of the neighborhood converges with the timeless appeal of authentic Italian cuisine.</p>
+        </div>
+    </div>
+</div>
 
+<div class="row" id="rowcontent">
+    <div class="col-sm-7" id="textcontent">
+        <div class="row" >
+        <h2 class="heading">Our story</h2>
+        <div id="goldline"><hr id="story"> </div>
+        </div>
+        <div class="row" >
+        <p class="description">Since its establishment in 1950, Amici Ristorante has stood as a cherished local Italian eatery,
+            a timeless haven for authentic flavors and conviviality. The quaint, rustic interior, adorned with vintage snapshots,
+            invites patrons into a nostalgic embrace. A symphony of scents emanates from the bustling kitchen, where skilled chefs
+            infuse traditional Italian dishes with modern flair. Adorned with red-checkered tablecloths and a carefully selected wine list,
+            Amici offers an intimate space for diners to revel in the essence of Italy, creating enduring connections and cherished memories.</p>
+        </div>
+    </div>
+    <div class="col-sm-5" id="imagecontent">
+        <img src="pictures/pizza.jpg" class="center" width="80%">
+    </div>
+</div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script> 
+<div class="row" id="rowcontent">
+    <div class="col-sm-5" id="imagecontent">
+        <img src="Pictures/antonioandmother.jpeg" class="center" width="80%">
+    </div>
+    <div class="col-sm-7" id="textcontent">
+        <div class="row" >
+        <h2 class="heading">Our founder</h2>
+        <div id="goldline"><hr id="story"> </div>
+        </div>
+        <div class="row">
+        <p class="description">
+            In the bustling post-war years of 1950s Naples, Antonio Rossi, a young and ambitious man with a passion 
+            for his homeland's culinary treasures, set sail for a distant city to pursue his dreams. Facing challenges, 
+            he scraped together enough to open a modest eatery, Amici Ristorante, on a quaint street. Armed with cherished family recipes, 
+            Antonio's dedication to authenticity and quality quickly turned the small establishment into a local sensation. Word of mouth 
+            transformed it into a beloved institution, where the aroma of homemade sauces and the sizzle of garlic in olive oil drew in patrons 
+            seeking a taste of Italy. Amici Ristorante became Antonio's legacy, 
+            a testament to one man's dream and the enduring joy of sharing authentic cuisine with a community that embraced it wholeheartedly.</p>
+        </div>
+    </div>
+</div>
+    <hr>
+    <div class="row" id="footer">
+        <div class="col-sm-4">
+            <h4 class="footer-heading" id="footer-center">Bon appetit!</h4>
+        </div>
+        <div class="col-sm-4">
+            <div id="footer-helper">
+                <img src="pictures/underline-title.png" id="footer-underline">
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="row">
+                <h4 class="footer-heading">Socials</h4>
+            </div>
+            <div class="row">
+                <div class="socials">
+                    <a href="#" id="twitter"><img src="pictures/x_white.png" class="socials-logo"></a>
+                    <a href="#" id="instagram"><img src="pictures/instagram_white.png" class="socials-logo"></a>
+                    <a href="#" id="facebook"><img src="pictures/facebook_white.png" class="socials-logo"></a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
 </body>
 </html>
