@@ -6,16 +6,14 @@
     --secondary-text: #CCCABC;
 }
 .headers{
-   
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 hr{
     background-color: var(--details);
     height: 2px;
-    margin-top: 0;
+    margin: 0;
 }
 #story{
     display: block;
@@ -61,7 +59,7 @@ body {
     font-family: "Jacques Francois";
     font-style: normal;
     padding: 55px;
-    letter-spacing: 4px;
+    letter-spacing: 5px;
 }
 
 .bg-body-tertiary{
@@ -76,7 +74,6 @@ body {
 .nav-link:hover {
     color: var(--details);
     text-decoration: underline;
-
 }
 
 .nav-link:focus {
