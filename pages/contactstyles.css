@@ -11,27 +11,11 @@ body {
     font-family: "Libre Baskerville";
     font-style: italic;
 }
+
 hr{
     background-color: var(--details);
     height: 2px;
     margin-top: 0;
-}
-#story{
-    color: var(--details);
-    background-color: none;
-    margin: 1%;
-}
-#rowcontent{
-    margin-top: 2%;
-    height: 380px;
-}
-#rowcontent1{
-    margin-top: 2%;
-    height: 380px;
-}
-#rowcontent3{
-    margin-top: 2%;
-    height: 380px;
 }
 
 #imagecontent{
@@ -42,13 +26,12 @@ hr{
 #goldline{
     width: 90%;
 }
-.rowcontent2{
-    margin-left: 3%;
-}
+
 .description{
     font-size: 18px;
-    text-align: justify;
+    text-align: center;
     width: 90%;
+   
 }
 .container-fluid{
     background-color: var(--primary-color);
@@ -111,7 +94,16 @@ h1 {
     padding-bottom: 0;
     margin-bottom: 0;
 }
-    
+h2{
+    text-align: center;
+}
+h3{
+    text-decoration: underline;
+    text-align: center;
+}
+.address{
+    width: 50%;
+}
 .heading{
     font-size: 60px;
 }
@@ -148,7 +140,7 @@ h1 {
 }
 
 .navbar-toggler-icon {
-    background-image: url("pictures/menu.png");
+    background-image: url("../pictures/menu.png");
 }
 
 .navbar-toggler {
@@ -166,3 +158,6 @@ h1 {
     opacity: 0.90;
 
 }
+
+
+
