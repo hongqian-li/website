@@ -12,10 +12,10 @@ body {
     font-style: italic;
 }
 
-img
+.image-container img 
 {
-    width: 20% !important;
-    height: auto !important;
+    max-width: 100%; /* Set a maximum width relative to the parent container */
+    height: auto;
 }
 
 hr{
