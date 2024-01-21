@@ -16,7 +16,7 @@ hr{
     height: 2px;
     margin-top: 0;
 }
-#story{
+.story{
     color: var(--details);
     background-color: none;
     margin: 1%;
@@ -47,8 +47,10 @@ hr{
 }
 .description{
     font-size: 18px;
-    text-align: justify;
-    width: 90%;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
 }
 .container-fluid{
     background-color: var(--primary-color);
@@ -110,16 +112,52 @@ h1 {
     font-size: 100px;
     padding-bottom: 0;
     margin-bottom: 0;
+    text-align: center;
+}
+h2{
+        font-size: 50px;
+        padding-bottom: 10px;
+        margin-bottom: 0;
+        text-align: center;
 }
     
 .heading{
     font-size: 60px;
 }
 
-#footer {
+#h1career{
     text-align: center;
+    font-size: 50px;
+    padding: 2%;
+}
+#introcuctioncareer{
+    padding: 10px;
+}
+.career-link {
+    color:var(--heading-text);
+
+    text-decoration: none;
 }
 
+.career-link:hover {
+    color: var(--details);
+    text-decoration: underline;
+}
+
+.career-link:focus {
+    color:var(--secondary-text);
+}
+ul.list{
+    list-style-type: none;
+}
+.list-row{
+    padding: 20px;
+}
+
+
+#footer {
+     text-align: center;
+}
 .footer-heading {
     font-size: 30px;
 }
@@ -148,7 +186,7 @@ h1 {
 }
 
 .navbar-toggler-icon {
-    background-image: url("pictures/menu.png");
+    background-image: url("../pictures/menu.png");
 }
 
 .navbar-toggler {
@@ -164,5 +202,23 @@ h1 {
 #header-logo {
     width: 90%;
     opacity: 0.90;
+}
 
+.btn{
+    background-color: #C19977;
+    border: #C19977;
+    font-family: "Libre Baskerville";
+}
+.form-label{
+    text-align: center;
+    font-family: "Libre Baskerville";
+}
+#exampleInputEmail1{
+    font-family: "Libre Baskerville";
+}
+.form-control{
+    width: 80%;
+}
+.mb-3{
+    align-items: center;
 }

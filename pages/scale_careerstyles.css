@@ -39,6 +39,20 @@
     body {
         background-color: var(--primary-color);
     }
+    .career-link {
+        color:var(--heading-text);
+    
+        text-decoration: none;
+    }
+    
+    .career-link:hover {
+        color: var(--details);
+        text-decoration: underline;
+    }
+    
+    .career-link:focus {
+        color:var(--secondary-text);
+    }
 }
 
 @media (min-width: 481px) and (max-width: 767px) { /*Low-resolution Tablets and Ipads*/
