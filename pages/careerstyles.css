@@ -48,7 +48,9 @@ hr{
 .description{
     font-size: 18px;
     text-align: justify;
-    width: 90%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
 }
 .container-fluid{
     background-color: var(--primary-color);
@@ -116,10 +118,39 @@ h1 {
     font-size: 60px;
 }
 
-#footer {
+#h1career{
     text-align: center;
+    font-size: 50px;
+    padding: 2%;
+}
+#introcuctioncareer{
+    padding: 10px;
+}
+.career-link {
+    color:var(--heading-text);
+
+    text-decoration: none;
 }
 
+.career-link:hover {
+    color: var(--details);
+    text-decoration: underline;
+}
+
+.career-link:focus {
+    color:var(--secondary-text);
+}
+ul.list{
+    list-style-type: none;
+}
+.list-row{
+    padding: 20px;
+}
+
+
+#footer {
+     text-align: center;
+}
 .footer-heading {
     font-size: 30px;
 }
@@ -148,7 +179,7 @@ h1 {
 }
 
 .navbar-toggler-icon {
-    background-image: url("pictures/menu.png");
+    background-image: url("../pictures/menu.png");
 }
 
 .navbar-toggler {
@@ -164,5 +195,4 @@ h1 {
 #header-logo {
     width: 90%;
     opacity: 0.90;
-
 }
