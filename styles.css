@@ -14,7 +14,7 @@ body {
 
 .image-container img 
 {
-    max-width: 10%; /* Set a maximum width relative to the parent container */
+    max-width: 50%; /* Set a maximum width relative to the parent container */
     height: auto;
 }
 
