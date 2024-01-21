@@ -12,10 +12,16 @@ body {
     font-style: italic;
 }
 
+.image-container 
+{
+    text-align: center; /* Center inline content horizontally */
+}
+
 .image-container img 
 {
-    max-width: 50px; /* Set a maximum width relative to the parent container */
+    max-width: 150px; /* Set a maximum width relative to the parent container */
     height: auto;
+    
 }
 
 hr{
