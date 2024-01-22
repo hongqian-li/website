@@ -1,16 +1,24 @@
 # Distribution of the work
 
-## Home page
-Attila
+A simple outline of what each member of the team has done!
 
-## Gallery
-Julian
+## Richard -------------------------
 
-## Menu
-Hongqian-li
+- Footer and Header on each page
+- Merging of all the codes into one
+- Responsiveness of the whole website
 
-## Contact us
-Richard
+## Attila -------------------------
 
-## Career
-Attila
+- Home page
+- Career page
+- Reservations page
+- Contact page
+
+## Lucas -------------------------
+
+- Menu page
+
+## Julian -------------------------
+
+- Gallery page

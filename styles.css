@@ -1,103 +1,104 @@
-:root {
+:root { /*Main colors for the site*/
     --primary-color: #1E1D1B;
     --background: #EAEAEA;
     --details: #C19977;
     --heading-text: #FFFFFF;
     --secondary-text: #CCCABC;
 }
-body { 
-    background-color: var(--background);
+
+body {
+    background-color: var(--primary-color);
     color: white;
-    font-family: "Libre Baskerville";
+    font-family: "Libre Baskerville", serif;
     font-style: italic;
 }
 
-.image-container 
-{
-height: 500px;
+.image-container {
+    height: 500px;
 
 }
 
-.Drinks{
+.drinks {
     height: 700px;
 }
 
-/*
-.image-container img 
-{
-    max-width: 150px;
-    height: auto;  
-}
-*/
-
-hr{
+hr {
     background-color: var(--details);
     height: 2px;
     margin-top: 0;
 }
-.story{
+
+.story {
     color: var(--details);
     margin: 1%;
 }
-.rowcontent{
-    margin-top: 2%;
-    height: 380px;
-}
-.rowcontent1{
-    margin-top: 2%;
-    height: 380px;
-}
-.rowcontent3{
+
+.rowcontent {
     margin-top: 2%;
     height: 380px;
 }
 
-.imagecontent{
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.rowcontent1 {
+    margin-top: 2%;
+    height: 380px;
 }
-.goldline{
+
+.rowcontent3 {
+    margin-top: 2%;
+    height: 380px;
+}
+
+.imagecontent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.goldline {
     width: 90%;
 }
-.rowcontent2{
+
+.rowcontent2 {
     margin-left: 3%;
 }
-.description{
+
+.description {
     font-size: 18px;
     text-align: justify;
     width: 90%;
 }
-.container-fluid{
+
+.container-fluid {
     background-color: var(--primary-color);
     width: 97%;
 }
 
-.navbar{
+.navbar {
     width: auto;
     margin: auto;
     font-size: 30px;
     padding-bottom: 0;
 }
 
-#logodiv{
+#logodiv {
     display: block;
-    margin:auto;
-}
-.center {
-        display: block;
-        margin: auto;
+    margin: auto;
 }
 
-.nav-item{
+.center {
+    display: block;
+    margin: auto;
+}
+
+.nav-item {
     padding-bottom: 0;
     margin-bottom: 0;
     margin-right: 30px;
 }
 
-#title{
+#title {
     text-align: center;
-    font-family: "Jacques Francois";
+    font-family: "Jacques Francois", serif;
     font-style: normal;
     margin-top: 20px;
     padding-left: 55px;
@@ -105,13 +106,13 @@ hr{
     letter-spacing: 6px;
 }
 
-.bg-body-tertiary{
+.bg-body-tertiary {
     background-color: var(--primary-color) !important;
 }
 
 .nav-link {
-    color:var(--heading-text);
-    padding:0%;
+    color: var(--heading-text);
+    padding: 0;
     text-align: center;
 }
 
@@ -121,16 +122,16 @@ hr{
 }
 
 .nav-link:focus {
-    color:var(--secondary-text);
+    color: var(--secondary-text);
 }
 
-h1 {
+.header-title {
     font-size: 100px;
     padding-bottom: 0;
     margin-bottom: 0;
 }
-    
-.heading{
+
+.heading {
     font-size: 60px;
 }
 
@@ -146,7 +147,7 @@ h1 {
     font-size: 50px;
     line-height: 100px;
     text-align: center;
-    
+
 }
 
 .socials-logo {
@@ -166,7 +167,7 @@ h1 {
 }
 
 .navbar-toggler-icon {
-    background-image: url("pictures/menu.png");
+    background-image: url("images/headerFooter/menu.png");
 }
 
 .navbar-toggler {
@@ -182,5 +183,115 @@ h1 {
 #header-logo {
     width: 90%;
     opacity: 0.90;
+}
 
+.career-description {
+    font-size: 18px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+.detail-text {
+    color: var(--details);
+    font-weight: bold;
+}
+
+.center-align {
+    text-align: center;
+}
+
+.career-link {
+    color: var(--heading-text);
+    text-decoration: none;
+}
+
+.career-link:hover {
+    color: var(--details);
+    text-decoration: underline;
+}
+
+.career-link:focus {
+    color: var(--secondary-text);
+}
+
+ul.list {
+    list-style-type: none;
+}
+
+.list-row {
+    padding: 20px;
+}
+
+.contact-separator {
+    width: 50%;
+}
+
+.our-menu {
+    margin: 0 auto;
+    text-align: justify;
+    padding-top: 75px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 85px;
+    font-size: large;
+}
+
+.extra-info {
+    font-weight: normal;
+    font-size: 12px;
+}
+
+.menu-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img.center {
+    width: 90%;
+}
+
+.menu-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.menu-item {
+    width: 40%;
+    margin-bottom: 20px;
+}
+
+.menu-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.menu-ingredients {
+    font-size: 14px;
+    color: var(--secondary-text);
+    margin-bottom: 10px;
+}
+
+.menu-price {
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--details);
+}
+
+#detail-color-text {
+    color: var(--details)
+}
+
+.btn {
+    background-color: var(--details);
+    border-color: var(--details);
+}
+
+.current-tab {
+    color: var(--details);
+    text-decoration: underline;
 }
