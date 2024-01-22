@@ -11,6 +11,25 @@ body {
     font-family: "Libre Baskerville";
     font-style: italic;
 }
+
+.image-container 
+{
+height: 500px;
+
+}
+
+.Drinks{
+    height: 700px;
+}
+
+/*
+.image-container img 
+{
+    max-width: 150px;
+    height: auto;  
+}
+*/
+
 hr{
     background-color: var(--details);
     height: 2px;
