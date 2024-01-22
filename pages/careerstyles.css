@@ -18,7 +18,6 @@ hr{
 }
 #story{
     color: var(--details);
-    background-color: none;
     margin: 1%;
 }
 #rowcontent{

@@ -16,30 +16,29 @@ hr{
     height: 2px;
     margin-top: 0;
 }
-#story{
+.story{
     color: var(--details);
-    background-color: none;
     margin: 1%;
 }
-#rowcontent{
+.rowcontent{
     margin-top: 2%;
     height: 380px;
 }
-#rowcontent1{
+.rowcontent1{
     margin-top: 2%;
     height: 380px;
 }
-#rowcontent3{
+.rowcontent3{
     margin-top: 2%;
     height: 380px;
 }
 
-#imagecontent{
+.imagecontent{
   display: flex;
   align-items: center;
   justify-content: center;
 }
-#goldline{
+.goldline{
     width: 90%;
 }
 .rowcontent2{
