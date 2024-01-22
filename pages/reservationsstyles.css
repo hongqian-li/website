@@ -184,3 +184,10 @@ list-style-type: none;
 .list-row{
 padding: 20px;
 }
+.btn{
+    background-color: var(--details);
+    border-color: var(--details);
+}
+#exampleInputEmail1{
+    background-color: #e8e8e8;
+}
