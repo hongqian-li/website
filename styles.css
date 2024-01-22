@@ -14,15 +14,16 @@ body {
 
 .image-container 
 {
-    text-align: center; /* Center inline content horizontally */
+
 }
 
+/*
 .image-container img 
 {
-    max-width: 150px; /* Set a maximum width relative to the parent container */
-    height: auto;
-    
+    max-width: 150px;
+    height: auto;  
 }
+*/
 
 hr{
     background-color: var(--details);
