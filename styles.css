@@ -35,12 +35,12 @@ hr {
 
 .rowcontent {
     margin-top: 2%;
-    height: 380px;
+
 }
 
 .rowcontent1 {
     margin-top: 2%;
-    height: 380px;
+
 }
 
 .rowcontent3 {
@@ -55,17 +55,18 @@ hr {
 }
 
 .goldline {
-    width: 90%;
+    width: 97%;
 }
 
 .rowcontent2 {
     margin-left: 3%;
+
 }
 
 .description {
     font-size: 18px;
     text-align: justify;
-    width: 90%;
+    width: 97%;
 }
 
 .container-fluid {
@@ -294,4 +295,12 @@ img.center {
 .current-tab {
     color: var(--details);
     text-decoration: underline;
+}
+
+.anchor {
+    color: white;
+}
+
+#gallery-heading {
+    margin-bottom: 15px;
 }
